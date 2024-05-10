@@ -1,0 +1,121 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+/* HERO IMAGE */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    width: 100vw;
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-div {
+    text-align: center;
+    font-family: Montserrat;
+}
+
+
+.shop-now {
+    width: 75%;
+    background-color: transparent;
+    border: 4px solid #d2925e;
+    height: auto;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+
+.shop-now a {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+.shop-now:hover {
+    background-color: #d2925e;
+}
+
+
+/* ABOUT SECTION */
+.about {
+    width: 100%;
+    max-width: 1000px;
+    color:  #d2925e;;
+    margin: 7% auto;
+}
+
+.about-text {
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+    line-height: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10px;
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.gallery-div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.gallery-img {
+    height: 450px;
+    width: 350px;
+    
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 767px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        column-gap: 25px;
+    }
+
+    .gallery-img {
+        height: 350px;
+        width: 250px;   
+    }
+}
+
+@media (min-width: 1025px) {
+    .about-text {
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+
+    .gallery-img {
+        height: 450px;
+        width: 350px;   
+    }
+}

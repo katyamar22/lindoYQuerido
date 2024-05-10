@@ -1,0 +1,69 @@
+html {
+    background-color: whitesmoke;
+}
+main {
+    color: #824f26;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.contact-text {
+    text-align: center;
+    
+}
+
+.contact-text a {
+    color:#824f26;
+}
+
+.contact-text a:hover {
+    color:#957a65;
+    cursor: pointer;
+}
+
+.contact {
+    border: 2px solid #8E4406;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 750px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label {
+ margin-bottom: 10px;
+}
+
+input {
+    height: 25px;
+}
+
+textarea {
+    height: 75px;
+}
+
+.submit-btn {
+    width: 25%;
+    margin: auto;
+    background-color: whitesmoke;
+    color: #8E4406;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    background: #8E4406;
+    color: whitesmoke;
+    cursor: pointer;
+}
+

@@ -1,0 +1,168 @@
+body{
+  margin: 0;
+}
+
+#logo {
+    width: 135px;
+    margin: 0 auto;
+    align-self: center;
+  }
+  
+  /* NAVIGATION */
+  nav li {
+    list-style: none;
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #8E4406;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #cb7f40;
+  }
+  
+  header {
+    position: relative;
+    padding: 0 2rem;
+    /* background-color: #8E4406; */
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .links {
+    display: flex;
+    gap: 5rem;
+    font-size: 1.5rem;
+  }
+  
+  .navbar li:hover{
+    transform: scale(1.5);
+  }
+
+  .navbar .toggle-btn {
+    color: #8E4406;
+    font-size: 1.5rem;
+    cursor: pointer; 
+    display: none;
+    margin: 20px;
+  }
+
+
+  /* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background-color: #cb7f40;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height .25 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown-menu.open {
+  height: 240px;
+}
+
+.dropdown-menu li {
+  padding: 0.7rem;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-menu a:hover {
+  color: white;
+}
+
+.toggle-btn:hover{
+  color: #cb7f40;
+}
+  /* FOOTER */
+  footer {
+    width: 100%;
+    background-color: #8E4406;
+    margin-bottom: 0;
+    font-family: Montserrat;
+    font-weight: lighter;
+  }
+
+  .footer-container {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .social-media {
+   width: 70%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+  }
+
+  .social-media i {
+    color: white;
+    font-size: 2rem;
+    margin: 25px;
+  }
+
+  .social-media i:hover {
+    transform: scale(1.5);
+  }
+
+  .bottom-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .copyright {
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .dropdown-menu {
+    left: 2rem;
+    width: unset;
+
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar .links {
+    display: none;
+  }
+
+  .navbar .toggle-btn {
+    display: block;
+  }
+
+  .dropdown-menu {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .shop-name {
+    display: none;
+  }
+}

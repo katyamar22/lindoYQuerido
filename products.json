@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Traditional Bowl",
+        "price": "$10.00 /each",
+        "image": "images/bowls.png",
+        "description": "Traditional ceramic bowl with green and tan hand painted flowers."
+    },
+    {
+        "name": "Traditional Mug",
+        "price": "$5.00",
+        "image": "images/traditionalmug.jpg",
+        "description": "Traditional ceramic mug with green and tan hand painted flowers." 
+    },
+    {
+        "name": "Traditional Mug with Mug Plate",
+        "price": "10.00",
+        "image": "images/spoons.png",
+        "description": "Ceramic mug and mug plate with traditional hand painted tan and brown flowers." 
+    },
+    {
+        "name": "Heart Plate",
+        "price": "$15.00",
+        "image": "images/heartplate.png",
+        "description": "Ceramic plate in the shape of a heart with hand painted tan and brown flowers."
+    },
+    {
+        "name": "Ceramic Caddy",
+        "price": "$20.00",
+        "image": "images/holder.jpg",
+        "description": "Ceramic caddy with handle planted tan and brown flowers and other decor."
+    },
+    {
+        "name": "Ceramic Spoons",
+        "price": "$2.50 each",
+        "image": "images/spoons.png",
+        "description": "Ceramic spoons with hand painted green and tan flowers on the handle." 
+    },
+    {
+        "name": "Small Pot ",
+        "price": "$15.00",
+        "image": "images/pot.png",
+        "description": "Small ceramic pot full of traditional hand painted flowers." 
+    },
+    {
+        "name": "Large Pan",
+        "price": "$50.00",
+        "image": "images/large-pan.jpg",
+        "description": "Large ceramic pan with traditional hand painted floral designs on the inside and outside of the pan." 
+    },
+    {
+        "name": "Terracotta Bowl",
+        "price": "$13.00",
+        "image": "images/terracota-bowl.jpg",
+        "description": "Beautiful ceramic bowl made from brown clay with hand sculpted floral design." 
+    },
+    {
+        "name": "Terracotta Vase",
+        "price": "$40.00",
+        "image": "images/terracota-vase.jpg",
+        "description": "Beautiful ceramic vase made from brown clay with hand sculpted floral design all over the vase." 
+    },
+    {
+        "name": "Talavera Heart Mug",
+        "price": "$7.00",
+        "image": "images/heartmug.png",
+        "description": "Heart shaped mug with beautiful hand painted Talavera design." 
+    },
+    {
+        "name": "Talavera Coffee Cup",
+        "price": "$8.00",
+        "image": "images/pinkcoffee.png",
+        "description": "Ceramic coffee cup with beautiful pink hand painted Talavera design." 
+    },
+    {
+        "name": "Mug Earrings",
+        "price": "$7.00" ,
+        "image": "images/mugEarring.png",
+        "description": "A pair of earrings inspired by our traditional mugs, take a piece of Mexico wherever you go with these earrings!" 
+    }
+]
