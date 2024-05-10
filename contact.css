@@ -51,6 +51,11 @@ textarea {
     height: 75px;
 }
 
+span {
+    color: red;
+    font-size: .8rem;
+    float: right;
+}
 .submit-btn {
     width: 65%;
     margin: auto;
