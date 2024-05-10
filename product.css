@@ -54,7 +54,7 @@ p {
 }
 
 .product-image:hover {
-    transform: scale(1.25);
+    transform: scale(1.05);
 }
 
 @media (min-width: 767px) and (max-width: 1025px) {
@@ -66,7 +66,7 @@ p {
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     .product-grid {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(5, 1fr);

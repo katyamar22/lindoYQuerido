@@ -32,6 +32,7 @@ data.forEach(product => {
   console.log(productDiv);
 
   //repeat process for every item in JSON file
+  
   const productName = document.createElement('h4');
   productName.textContent = product.name;
   productName.classList.add('product-name');
@@ -51,4 +52,6 @@ data.forEach(product => {
   productGrid.appendChild(productDiv);
 })
 
+    // Handles Errors
+  .catch(error => console.error('Error fetching products', error));
 });
