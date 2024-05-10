@@ -24,6 +24,7 @@ data.forEach(product => {
   const productImg = document.createElement('img');
   // adds JSON file image info to productImg
   productImg.src = product.image;
+  productImg.alt = `${product.description}`;
   productImg.classList.add('product-image');
 
   // Adds product img to productDiv div.

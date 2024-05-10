@@ -23,8 +23,12 @@ body {
 .product-div {
    width: 80%;
    margin: 7% auto;
+   padding: 30px;
 }
 
+.product-div:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 .product-div h4,h5,p {
     text-align: center;
 
@@ -38,6 +42,7 @@ p {
     color:#ae6326;
     line-height: 1.75rem;;
 }
+
 .product-image {
     height: 300px;
     width: 250px;
